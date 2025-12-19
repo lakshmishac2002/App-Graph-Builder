@@ -2,36 +2,7 @@
 
 A modern, feature-rich application for visualizing, designing, and managing application architectures with **AI-powered insights**, drag-and-drop node creation, and professional-grade editing features.
 
-![App Graph Builder](https://img.shields.io/badge/React-18.2-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue) ![Vite](https://img.shields.io/badge/Vite-5.0-purple) ![Progress](https://img.shields.io/badge/Features-3%2F19%20Complete-yellow)
 
-## ✨ New Features (Recently Added)
-
-### 🎨 Multiple Node Types (6 Distinct Types!)
-- **Service** (blue) - Backend services and microservices
-- **Database** (green) - SQL and NoSQL databases
-- **Cache** (yellow) - In-memory caching layers
-- **API** (purple) - REST and GraphQL APIs
-- **Queue** (orange) - Message queues and event buses
-- **Frontend** (cyan) - Web and mobile frontends
-
-Each node type features:
-- Unique colored borders and icons
-- Hover effects with animated pulse
-- Type-based coloring in minimap
-- Professional cyberpunk aesthetic
-
-### 🎯 Drag-and-Drop Node Creation
-- **Collapsible Node Palette** in the top-left corner
-- Drag any node type onto the canvas
-- Auto-generated unique IDs
-- Positioned exactly where you drop
-- Visual feedback and smooth animations
-
-### 🎛️ Enhanced Zoom Controls
-- Fully visible and styled zoom buttons
-- Custom theme-matched icons
-- Smooth zoom transitions
-- Fit view functionality
 
 ## Core Features
 
@@ -41,9 +12,6 @@ Each node type features:
 - **Status Monitoring** - Visual indicators (Healthy, Degraded, Down)
 - **Synced Controls** - Slider and numeric input perfectly synchronized
 - **Responsive Design** - Desktop-optimized with mobile drawer
-- **Mock API Integration** - Simulated backend with realistic latency
-- **State Management** - Zustand for efficient, minimal state
-- **Type Safety** - Strict TypeScript throughout
 
 ## Tech Stack
 
@@ -214,33 +182,6 @@ src/
    - Only three pre-configured applications
    - Graph structures are fixed (not dynamically generated)
 
-## 🚀 Roadmap - 16 Features Coming Soon!
-
-### Phase 1: Core Enhancements (Priority)
-- [x] **Multiple Node Types** - 6 distinct types ✅
-- [x] **Drag-Drop Creation** - Node palette ✅
-- [ ] **LocalStorage Persistence** - Auto-save graphs (IN PROGRESS)
-- [ ] **Undo/Redo System** - 50-state history with Ctrl+Z/Y
-- [ ] **Custom Edge Types** - Protocol labels (HTTP, gRPC, WebSocket)
-- [ ] **Export/Import** - JSON, PNG, SVG formats
-
-### Phase 2: Power User Features
-- [ ] **Keyboard Shortcuts** - 10+ shortcuts (Ctrl+Z, Ctrl+F, Ctrl+S, etc.)
-- [ ] **Auto-Layout** - Dagre hierarchical arrangement
-- [ ] **Search & Filter** - Find nodes by name/type/status
-- [ ] **Theme Customization** - 5 color themes
-- [ ] **Live Metrics** - Real-time simulated monitoring
-- [ ] **Graph Validation** - Architecture linting with health scores
-- [ ] **Node Grouping** - Organize into collapsible clusters
-
-### Phase 3: AI-Powered Innovation 🤖
-- [ ] **AI Graph Generator** - "Create microservices e-commerce" → instant graph
-- [ ] **Smart Suggestions** - AI recommends missing connections
-- [ ] **Anomaly Detection** - Identify anti-patterns and security issues
-- [ ] **Natural Language Queries** - "Show path from frontend to database"
-- [ ] **Auto-Documentation** - Generate README and ADRs from graph
-
-**Progress: 3/19 features complete (15.8%)**
 
 ## Browser Support
 
@@ -248,17 +189,7 @@ src/
 - Firefox 88+
 - Safari 14+
 
-## License
 
-MIT
-
-## Deployment
-
-This project can be easily deployed to:
-
-- **Vercel**: `vercel --prod`
-- **Cloudflare Pages**: Connect repository and auto-deploy
-- **Netlify**: Drag `dist/` folder or connect repository
 
 Build command: `npm run build`
 Output directory: `dist`
