@@ -34,7 +34,7 @@ A modern, feature-rich application for visualizing, designing, and managing appl
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/lakshmishac2002/App-Graph-Builder
    cd app-graph-builder
    ```
 
